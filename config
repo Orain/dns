@@ -1,0 +1,13 @@
+options => {
+	listen => any
+}
+plugins => {
+    multifo => {
+      up_thresh => 0.3
+      service_types => up,
+      www => {
+        prod4 => 178.62.5.12,
+        prod8 => 178.62.7.227,
+      }
+    }
+}
