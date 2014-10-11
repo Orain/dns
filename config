@@ -2,12 +2,18 @@ options => {
 	listen => any
 }
 plugins => {
-    multifo => {
-      up_thresh => 0.3
-      service_types => up,
-      www => {
-        prod4 => 178.62.5.12,
-        prod8 => 178.62.7.227,
-      }
-    }
+	multifo => {
+		up_thresh => 0.3
+		service_types => up,
+		www => {
+			addrs_v4 => {
+				prod4 => 178.62.5.12,
+				prod8 => 178.62.7.227,
+			}
+			addrs_v6 => {
+				prod4 => 2a03:b0c0:1:d0::bd:e001,
+				prod8 => 2a03:b0c0:1:d0::b7:c001,
+			}
+		}
+	}
 }
