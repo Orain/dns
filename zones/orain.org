@@ -19,7 +19,9 @@ $ORIGIN orain.org.
 
 ;; A records
 ns1	A	178.62.57.223
+	AAAA	2a03:b0c0:1:d0::13d:a001
 ns2	A	178.62.12.13
+	AAAA	2a03:b0c0:1:d0::140:3001
 
 ; Mail exchangers
 @	MX	10	prod6.orain.org.
