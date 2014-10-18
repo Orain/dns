@@ -7,7 +7,7 @@ install:
 
 before_script:
   - sudo cp config /etc/gdnsd/
-  - sudo cp zones/orain.org /etc/gdnsd/zones/
+  - sudo cp zones/* /etc/gdnsd/zones/
 
 script:
   - sudo gdnsd checkconf
