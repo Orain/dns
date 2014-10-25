@@ -31,6 +31,8 @@ lists	MX	10	prod6.orain.org.
 ; Servers
 prod3	A	178.62.7.230
 	AAAA	2a03:b0c0:1:d0::b7:a001
+prod4	A	178.62.5.12
+	AAAA	2a03:b0c0:1:d0::bd:e001
 prod5	A	178.62.7.228
 	AAAA	2a03:b0c0:1:d0::b7:d001
 prod6	A	178.62.57.223
