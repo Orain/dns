@@ -15,7 +15,7 @@ $TTL 300
 
 $ORIGIN 178.62.5
 ;; 178.62.5.0/24
-12	PTR	prod4.orain.org.
+12	PTR	prod10.orain.org.
 
 $ORIGIN 178.62.7
 ;; 178.62.7.0/24
