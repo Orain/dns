@@ -1,7 +1,7 @@
 $TTL 300
 $ORIGIN 2.a.0.3.b.0.c.0.0.0.0.1.0.0.d.0.0.0.0.0.0.0.0.0.0
 
-@	SOA ns1.orain.org. hostmaster.orain.org. (
+	SOA ns1.orain.org. hostmaster.orain.org. (
 	201410	; serial
 	7200	; refresh
 	30M	; retry
@@ -10,8 +10,8 @@ $ORIGIN 2.a.0.3.b.0.c.0.0.0.0.1.0.0.d.0.0.0.0.0.0.0.0.0.0
 )
 
 ; Name servers
-@	NS	ns1.orain.org.
-@	NS	ns2.orain.org.
+	NS	ns1.orain.org.
+	NS	ns2.orain.org.
 
 ; Servers
 ;; 2a03:b0c0:1:d0::/56
