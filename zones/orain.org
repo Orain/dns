@@ -57,3 +57,5 @@ mail	A	178.62.57.223
 ganglia	CNAME	prod6
 nagios	CNAME	prod6
 static	DYNA	multifo!www
+
+extload	A	178.62.7.227
