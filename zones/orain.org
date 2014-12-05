@@ -10,8 +10,8 @@ $ORIGIN orain.org.
 )
 
 ; Wildcard services
-@	CNAME	lb
-*	CNAME	lb
+@	DYNA	multifo!www
+*	DYNA	multifo!www
 
 ; Name servers
 @	NS	ns1.orain.org.
@@ -49,16 +49,11 @@ prod10	A	178.62.5.12
 
 ; Services
 apt	CNAME	prod6
+lb	DYNA	multifo!www
 lists	A	178.62.57.223
 	AAAA	2a03:b0c0:1:d0::13d:a001
 mail	A	178.62.57.223
 	AAAA	2a03:b0c0:1:d0::13d:a001
 ganglia	CNAME	prod6
 nagios	CNAME	prod6
-static	CNAME	lb
-
-; loadbalancer
-lb	A	178.62.7.227
-	A	178.62.116.171
-	AAAA	2a03:b0c0:1:d0::b7:c001
-	AAAA	2a03:b0c0:1:d0::b7:b001
+static	DYNA	multifo!www

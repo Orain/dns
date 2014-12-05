@@ -10,8 +10,8 @@ $ORIGIN testwiki.org.
 )
 
 ; Wildcard services
-@	CNAME	lb.orain.org.
-*	CNAME	lb.orain.org.
+@	DYNA	multifo!www
+*	DYNA	multifo!www
 
 ; Name servers
 @	NS	ns1.orain.org.
