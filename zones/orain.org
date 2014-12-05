@@ -44,8 +44,6 @@ prod8	A	178.62.7.227
 	AAAA	2a03:b0c0:1:d0::b7:c001
 prod9	A	178.62.116.171
 	AAAA	2a03:b0c0:1:d0::b7:b001
-prod10	A	178.62.5.12
-	AAAA	2a03:b0c0:1:d0::bd:e001
 
 ; Services
 apt	CNAME	prod6

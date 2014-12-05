@@ -21,7 +21,6 @@ $ORIGIN 10.131.232
 
 $ORIGIN 10.131.243
 ;; 10.131.243.0/24
-49	PTR	prod10.orain.org.
 243	PTR	prod3.orain.org.
 244	PTR	prod9.orain.org.
 245	PTR	prod8.orain.org.
