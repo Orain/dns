@@ -15,7 +15,7 @@ $ORIGIN 2.a.0.3.b.0.c.0.0.0.0.1.0.0.d.0.0.0.0.0.0.0.0.0.0
 
 ; Servers
 ;; 2a03:b0c0:1:d0::/56
-0.b.7.a.0.0.1   PTR     prod3.orain.org.
+2.5.1.6.0.0.1	PTR	prod12.orain.org.
 0.b.d.e.0.0.1	PTR	prod10.orain.org.
 0.b.7.d.0.0.1   PTR     prod5.orain.org.
 0.b.7.f.0.0.1	PTR	prod11.orain.org.

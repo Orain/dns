@@ -14,6 +14,10 @@ $TTL 300
 
 ; Servers
 
+$ORIGIN 10.131.209
+;; 10.131.209.0/24
+107	PTR	prod12.orain.org.
+
 $ORIGIN 10.131.232
 ;; 10.131.232.0/24
 37	PTR	prod7.orain.org.
@@ -22,7 +26,6 @@ $ORIGIN 10.131.232
 $ORIGIN 10.131.243
 ;; 10.131.243.0/24
 49	PTR	prod10.orain.org.
-243	PTR	prod3.orain.org.
 244	PTR	prod9.orain.org.
 245	PTR	prod8.orain.org.
 246	PTR	prod5.orain.org.

@@ -32,8 +32,6 @@ lists	MX	10	prod6.orain.org.
 orain.org.	TXT	"v=spf1 include:_spf.google.com ip4:178.62.7.227 ip4:178.62.57.223 ip4:178.62.116.171 ?all"
 
 ; Servers
-prod3	A	178.62.7.230
-	AAAA	2a03:b0c0:1:d0::b7:a001
 prod5	A	178.62.7.228
 	AAAA	2a03:b0c0:1:d0::b7:d001
 prod6	A	178.62.57.223
@@ -48,6 +46,8 @@ prod10	A	178.62.5.12
 	AAAA	2a03:b0c0:1:d0::bd:e001
 prod11	A	178.62.104.119
 	AAAA	2a03:b0c0:1:d0::b7:f001
+prod12	A	178.62.82.169
+	AAAA	2a03:b0c0:1:d0::251:6001
 
 ; Services
 apt	CNAME	prod6
