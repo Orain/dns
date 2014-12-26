@@ -1,0 +1,24 @@
+$TTL 300
+$ORIGIN o.
+
+@	SOA ns1.orain.org. hostmaster.orain.org. (
+	20141226	; serial
+	7200		; refresh
+	30M		; retry
+	3D		; expire
+	900		; ncache
+)
+
+; Name servers
+@	NS	ns1.orain.org.
+@	NS	ns2.orain.org.
+
+; Servers
+prod5	A	10.131.243.246
+prod6	A	10.131.232.174
+prod7	A	10.131.232.37
+prod8	A	10.131.243.245
+prod9	A	10.131.243.244
+prod10	A	10.131.243.49
+prod11	A	10.131.243.247
+prod12	A	10.131.209.107
