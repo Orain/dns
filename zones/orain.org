@@ -56,4 +56,4 @@ mail	A	178.62.57.223
 	AAAA	2a03:b0c0:1:d0::13d:a001
 
 ; Other
-spam	A	127.0.0.1
+spam	A	0.0.0.0
