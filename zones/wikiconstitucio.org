@@ -10,8 +10,8 @@ $ORIGIN wikiconstitucio.org.
 )
 
 ; Wildcard services
-@	DYNA	weighted!lb
-*	DYNA	weighted!lb
+@	DYNA	weighted!www
+*	DYNA	weighted!www
 
 ; Name servers
 @	NS	ns1.orain.org.

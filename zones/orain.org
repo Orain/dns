@@ -10,8 +10,8 @@ $ORIGIN orain.org.
 )
 
 ; Wildcard services
-@	DYNA	weighted!lb
-*	DYNA	weighted!lb
+@	DYNA	weighted!www
+*	DYNA	weighted!www
 
 ; Name servers
 @	NS	ns1.orain.org.
@@ -32,6 +32,8 @@ lists	MX	10	prod6.orain.org.
 orain.org.	TXT	"v=spf1 include:_spf.google.com ip4:178.62.7.227 ip4:178.62.57.223 ip4:178.62.116.171 ?all"
 
 ; Servers
+prod3	A	178.62.7.230
+	AAAA	2a03:b0c0:1:d0::b7:a001
 prod5	A	178.62.7.228
 	AAAA	2a03:b0c0:1:d0::b7:d001
 prod6	A	178.62.57.223
@@ -44,18 +46,14 @@ prod9	A	178.62.116.171
 	AAAA	2a03:b0c0:1:d0::b7:b001
 prod10	A	178.62.5.12
 	AAAA	2a03:b0c0:1:d0::bd:e001
-prod11	A	178.62.104.119
-	AAAA	2a03:b0c0:1:d0::b7:f001
-prod12	A	178.62.82.169
-	AAAA	2a03:b0c0:1:d0::251:6001
-prod13-temp	A	83.167.247.31
-prod14-temp	A	83.167.247.33
 
 ; Services
+apt	CNAME	prod6
+lb	DYNA	weighted!www
 lists	A	178.62.57.223
 	AAAA	2a03:b0c0:1:d0::13d:a001
 mail	A	178.62.57.223
 	AAAA	2a03:b0c0:1:d0::13d:a001
-
-; Other
-spam	A	0.0.0.0
+ganglia	CNAME	prod6
+nagios	CNAME	prod6
+static	DYNA	weighted!www
