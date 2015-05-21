@@ -8,10 +8,12 @@ plugins => {
 		service_types = up
 		lb => {
 			addrs_v4 => {
-				prod10 = [ 178.62.5.12, 1 ]
+				prod8 = [ 178.62.7.227, 1 ]
+				prod9 = [ 178.62.116.171, 1 ]
 			}
 			addrs_v6 => {
-				prod10 = [ 2a03:b0c0:1:d0::bd:e001, 1 ]
+				prod8 = [ 2a03:b0c0:1:d0::b7:c001, 1 ]
+				prod9 = [ 2a03:b0c0:1:d0::b7:b001, 1 ]
 			}
 		}
 	}
